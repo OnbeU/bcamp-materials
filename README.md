@@ -1,20 +1,66 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+## How we set up hugo (actually hugo-extended)
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+Made sure that `.gitignore` included these lines:
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+~~~
+project/build
+project/node_modules/
+project/public
+project/resources/_gen
+~~~
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+Ran these commands:
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+~~~
+md project
+cd project
+npm init
+~~~
+
+Used these options for `init`:
+ - package name: (project) onbe-bootcamp-training-materials
+ - description: Onbe Bootcamp Training Materials
+ - license: (ISC) UNLICENSED
+
+Ran these commands:
+
+~~~
+npm install -D shx
+npm install -D autoprefixer
+npm install -D postcss-cli
+npm install -D hugo-extended
+~~~
+
+Edited `package.json` to remove some features we don't want:
+  - `"main": "index.js",`
+
+Added some scripts to our `package.json`,
+per "[Deploying a static website to Azure Storage using Azure DevOps](https://www.blogtrack.io/blog/powerful-blog-setup-with-hugo-and-npm/#polishing-the-project)":
+
+    {
+      ...
+      "scripts": {
+        "build": "npm run hugo:build",
+        "clean": "npm run hugo:clean",
+        "serve": "npm run hugo:serve",
+        "hugo:build": "hugo -d build",
+        "hugo:serve": "hugo server",
+        "hugo:clean": "shx rm -rf build resources/_gen public dist && shx echo Done"
+      },
+      ... 
+    }
+
+Since we want to use Docsy as a submodule, we did this:
+
+~~~
+git submodule add https://github.com/google/docsy.git themes/docsy
+git submodule update --init --recursive
+~~~
+
+## How to build, clean and serve
+
+    npm run build
+
+    npm run clean
+
+    npm run serve

@@ -4,7 +4,7 @@
   "description": "Onbe Bootcamp Training Materials",
   "main": "index.js",
   "scripts": {
-    "build": "npm run submodule:build && npm run hugo:build",
+    "build": "npm install -g postcss-cli && npm run submodule:build && npm run hugo:build",
     "clean": "npm run hugo:clean",
     "serve": "npm run hugo:serve",
     "submodule:build": "git submodule update --init --recursive --depth 1",

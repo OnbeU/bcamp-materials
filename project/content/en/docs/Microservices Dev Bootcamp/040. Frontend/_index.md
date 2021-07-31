@@ -2,7 +2,7 @@
 type: docs
 title: "Frontend"
 linkTitle: "Frontend"
-weight: 4
+weight: 040
 description: >
   Create the frontend microservice.
 ---

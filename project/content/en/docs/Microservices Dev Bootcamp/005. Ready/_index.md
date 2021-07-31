@@ -1,10 +1,10 @@
 ---
 type: docs
-title: "Prerequisite software"
-linkTitle: "Prerequisite software"
-weight: 10
+title: "Ready?"
+linkTitle: "Ready?"
+weight: 005
 description: >
-  Get ready for local development and testing.
+  Make sure you have everything you need to begin bootcamp.
 ---
 
 {{% alert title="Sorry, Steve and Linus" color="warning" %}}

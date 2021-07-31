@@ -1,26 +1,12 @@
 ---
 type: docs
-title: "Microservices Developers' Bootcamp"
-linkTitle: "Microservices Bootcamp"
+title: "Microservice Developers' Bootcamp"
+linkTitle: "Microservice Developers' Bootcamp"
 weight: 4
 description: >
-  Where developers learn (by doing) how Drive-Ins Inc. develops microservices.
+  Where developers learn (by doing) how Onbe develops microservices.
 ---
 
 {{% pageinfo %}}
-TODO: Write this.
+These materials support the "Microservice Developers' Bootcamp" course.
 {{% /pageinfo %}}
-
-## TODO: Learning objectives
-
-## TODO: Architecture overview
-
-## TODO: Each team requests its repos
-
-## TODO: Front end team does its thing.
-
-## TODO: BFF team does its thing.
-
-## TODO: Backend team does its thing.
-
-## TODO: See it all come together.

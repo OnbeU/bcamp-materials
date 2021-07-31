@@ -17,6 +17,7 @@ you're on your own.
 
  - [Visual Studio Code](https://code.visualstudio.com/)
    - Confirm with `code --version`
+   - Extension: [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
  - For Windows
    - [nvm-windows, node.js, and npm](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows)
    - Confirm with:

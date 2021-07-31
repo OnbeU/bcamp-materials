@@ -20,5 +20,8 @@
     "hugo-extended": "^0.86.1",
     "postcss-cli": "^8.3.1",
     "shx": "^0.3.3"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.4.1"
   }
 }

@@ -1,7 +1,6 @@
 .vs/
 .vscode/
-project/build
-project/node_modules/
-project/public
-project/resources/_gen
-
+build
+node_modules/
+public/
+resources/

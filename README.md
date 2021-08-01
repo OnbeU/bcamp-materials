@@ -3,17 +3,17 @@
 Made sure that `.gitignore` included these lines:
 
 ~~~
-project/build
-project/node_modules/
-project/public
-project/resources/_gen
+.vs/
+.vscode/
+build
+node_modules/
+public/
+resources/
 ~~~
 
 Ran these commands:
 
 ~~~
-md project
-cd project
 npm init
 ~~~
 
@@ -29,7 +29,11 @@ npm install -D shx
 npm install -D autoprefixer
 npm install -D postcss-cli
 npm install -D hugo-extended
+npm install postcss
 ~~~
+
+(Note that `npm install postcss` does not have a `-D` because 
+[Hugo needs it in order to run on the GitHub build server]()https://github.com/google/docsy/issues/235.)
 
 Edited `package.json` to remove some features we don't want:
   - `"main": "index.js",`
@@ -40,12 +44,14 @@ per "[Deploying a static website to Azure Storage using Azure DevOps](https://ww
     {
       ...
       "scripts": {
-        "build": "npm run hugo:build",
+        "build": "npm run submodule:build && npm run hugo:build",
         "clean": "npm run hugo:clean",
         "serve": "npm run hugo:serve",
+        "submodule:build": "git submodule update --init --recursive --depth 1",
         "hugo:build": "hugo -d build",
         "hugo:serve": "hugo server",
-        "hugo:clean": "shx rm -rf build resources/_gen public dist && shx echo Done"
+        "hugo:clean": "shx rm -rf build resources/_gen public dist && shx echo Done",
+        "test": "echo \"Error: no test specified\" && exit 1"
       },
       ... 
     }

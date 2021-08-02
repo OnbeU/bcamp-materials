@@ -8,7 +8,7 @@ description: >
 ---
 
 {{% alert title="Sorry, Steve and Linus" color="warning" %}}
-This training module assumes you're running Windows. Along the way we might
+This training module assumes that you're running Windows. Along the way we might
 also include some info for you Mac/Linux people, but mostly
 you're on your own.
 {{% /alert %}}

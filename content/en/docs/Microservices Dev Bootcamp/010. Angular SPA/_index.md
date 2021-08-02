@@ -1,8 +1,8 @@
 ---
 type: docs
-title: "Frontend"
-linkTitle: "Frontend"
-weight: 040
+title: "Angular SPA"
+linkTitle: "Angular SPA"
+weight: 010
 description: >
   Create the frontend microservice.
 ---

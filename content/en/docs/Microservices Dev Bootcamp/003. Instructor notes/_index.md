@@ -78,7 +78,9 @@ Azure | STATIC WEB APPS
 
 Hit the + sign and choose the subscription.
 
-Use the defaults for everything but **location**, which should be `dist/project`.
+Choose "Angular" as the build preset.
+
+Use the defaults for everything but **location**, which should be `dist/project` (and not just `dist`).
 
 ### Workflow customization
 
@@ -96,6 +98,7 @@ on:
     types: [opened, synchronize, reopened, closed]
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   build_and_stage_job:
@@ -153,7 +156,6 @@ jobs:
           api_location: "" # Api source code path - optional - LEAVE BLANK BECAUSE PRODUCTION WILL USE K8S NODE
           output_location: "dist/project" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
-
 ~~~
 
 Commit with comment "Workflow is Onbe-fied.".

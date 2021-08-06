@@ -22,6 +22,7 @@ you're on your own.
    - Extension: [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
    - Extension: [Azure Static Web Apps](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurestaticwebapps)
    - Extension: [Azure Functions](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)
+   - Extension: [Terminals Manager](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-terminals)
 
 ### nvm, node and npm
 
@@ -88,3 +89,10 @@ node -v
 Run these commands:
 - `npm install -g @azure/static-web-apps-cli`
 - `npm install -g azure-functions-core-tools@3`
+
+### GitHub CLI
+
+Installation instructions for [GitHub CLI](https://github.com/cli/cli):
+ - [For Windows](https://github.com/cli/cli#windows)
+ - [For macOs](https://github.com/cli/cli#macos)
+ - [For Linux](https://github.com/cli/cli#linux)

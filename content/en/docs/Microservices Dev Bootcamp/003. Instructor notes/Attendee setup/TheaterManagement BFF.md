@@ -21,6 +21,10 @@ Enable Docker: Off
 Enable OpenAPI support: On
 ~~~
 
+### Move the project into the src directory
+
+TODO: Describe these steps.
+
 ## Create GitHub repo
 
 {{% alert title="No more masters" color="primary" %}}
@@ -50,3 +54,22 @@ Repository name: bc###-theatermanagement-bff
 Private repository: Off
 Push "Push" button
 ~~~
+
+## Docker setup
+
+### Create feature branch
+
+~~~
+feature/docker-setup
+~~~
+
+### Add Docker compose orchestration
+
+Right-click on project.
+
+Add > Container Orchestrator Support... > Docker Compose
+
+Target OS: Linux
+
+Commit with comment "Added Docker compose orchestration.".
+

@@ -96,3 +96,8 @@ Installation instructions for [GitHub CLI](https://github.com/cli/cli):
  - [For Windows](https://github.com/cli/cli#windows)
  - [For macOs](https://github.com/cli/cli#macos)
  - [For Linux](https://github.com/cli/cli#linux)
+
+### Visual Studio
+
+### Docker Desktop
+

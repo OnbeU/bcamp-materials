@@ -7,6 +7,9 @@ description: >
   TheaterManagement SPA.
 ---
 
+Everything that follows are the manual steps that we need to automate.
+======================================================================
+
 ## Attendee repos, etc. setup
 
 ### Create feature branch
@@ -72,7 +75,7 @@ index.html
 
 ### Workflow initial setup
 
-You'll want to do this on **main**, so push, create a pull request, complete the pull request and delete the branches.
+You'll want to do this on **main**, so push, create a pull request for the current branch, complete the pull request and delete the branches. Then pull to **main**.
 
 Azure | STATIC WEB APPS
 

@@ -1,3 +1,16 @@
+## How to contribute
+
+ - Open in Visual Studio Code
+   - You'll need the [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) extension.
+ - Develop on a feature branch
+ - Start a Terminal session.
+ - `npm update` to make sure all packages are present.
+ - `npm run serve` to start Hugo
+
+## How to deploy
+
+ - Merge the feature branch to main
+
 ## How we set up hugo (actually hugo-extended)
 
 Made sure that `.gitignore` included these lines:
@@ -63,10 +76,3 @@ git submodule add https://github.com/google/docsy.git themes/docsy
 git submodule update --init --recursive
 ~~~
 
-## How to build, clean and serve
-
-    npm run build
-
-    npm run clean
-
-    npm run serve

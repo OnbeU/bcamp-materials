@@ -1,17 +1,17 @@
 ---
 type: docs
-title: "TheaterManagement BFF"
-linkTitle: "TheaterManagement BFF"
-weight: 020
+title: "Movie Catalog Service"
+linkTitle: "Movie Catalog Service"
+weight: 030
 description: >
-  TheaterManagement BFF.
+  Movie Catalog Service.
 ---
 
 ## Create a new project and solution.
 
 ~~~
 Template: ASP.NET Core Web API
-Project name: Bc###TheaterManagementBff
+Project name: Bc###MovieCatalogSvc
 Location: c:\src\onbe
 
 Target Framework: .NET 5.0
@@ -50,7 +50,7 @@ Choose "Push to a new remote / GitHub"
 
 ~~~
 Owner: OnbeUStudent
-Repository name: bc###-theatermanagement-bff
+Repository name: bc###-moviecatalog-svc
 Private repository: Off
 Push "Push" button
 ~~~

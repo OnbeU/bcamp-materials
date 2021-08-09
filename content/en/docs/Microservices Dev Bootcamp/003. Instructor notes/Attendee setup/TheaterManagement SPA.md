@@ -1,10 +1,10 @@
 ---
 type: docs
-title: "Attendee setup"
-linkTitle: "Attendee setup"
+title: "TheaterManagement SPA"
+linkTitle: "TheaterManagement SPA"
 weight: 010
 description: >
-  Get things ready for each attendee.
+  TheaterManagement SPA.
 ---
 
 ## Attendee repos, etc. setup

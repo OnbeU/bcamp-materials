@@ -1,7 +1,7 @@
 ---
 type: docs
-title: "Ready?"
-linkTitle: "Ready?"
+title: "Attendee Pre-Camp Checklist"
+linkTitle: "Attendee Pre-Camp Checklist"
 weight: 005
 description: >
   Make sure you have everything you need to begin bootcamp.

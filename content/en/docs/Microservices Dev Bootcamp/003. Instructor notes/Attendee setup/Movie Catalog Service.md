@@ -23,7 +23,10 @@ Enable OpenAPI support: On
 
 ### Move the project into the src directory
 
-TODO: Describe these steps.
+ - Remove the project from the solution.
+ - Create a `src` directory.
+ - Move the project folder `Bc###MovieCatalogSvc` into that directory.
+ - Add the project back into the solution.
 
 ## Create GitHub repo
 

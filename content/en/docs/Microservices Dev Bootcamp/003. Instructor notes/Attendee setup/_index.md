@@ -22,7 +22,9 @@ description: >
 *Note that, for now, we're assuming one person per team, but that might change later.*
 
  - A resource group `bc###-rg`
- - An AKS cluster `bc###-cluster` within the resource group
+ - An AKS cluster `bc###-cluster-prod` within the resource group
+   - Daprized
+ - An AKS cluster `bc###-cluster-stage` within the resource group
    - Daprized
  - Service principal that the GitHub pipeline can use (`bc-###-sp`)
    - Provide contributor permission to resource group
@@ -35,12 +37,11 @@ description: >
  - Certain files in the repo
    - `.gitignore`, `package.json`, etc.
  - Workflow file in the `.github` directory.
- - In the Azure subscription:
-   - An Azure Static Web Site `bc###-theatermanagement-spa`
-     - Don't use the default `lively-river-0ebe1db10.azurestaticapps.net` domain; make it work
-       on something like `theatermanagement.###.bootcamp.swiftprepaid.com`
-     - The identifier for the Static Web Site set as variables for the workflow. 
-       For example, the VS Code plugin will create a secret named `secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_ICY_BAY_097E37B10`
+
+### The pipeline will be responsible for:
+ - In the cluster:
+    - A node `bc###-theatermanagement-spa`
+    - A node `bc###-theatermanagement-spa-fakeapi`
  
 ### Outcome, for the theatermanagement-bff, per team
  - repo named `bc###-theatermanagement-bff`
@@ -48,8 +49,12 @@ description: >
  - Certain files in the repo
    - `.gitignore`, etc.
  - Workflow file in the `.github` directory.
+
+### The pipeline will be responsible for:
  - In the cluster:
     - A node `bc###-theatermanagement-bff`
+    - A Dapr sidecar (should be autoinserted because the cluster is Daprized)
+    - A node `bc###-theatermanagement-bff-fakeapi`
     - A Dapr sidecar (should be autoinserted because the cluster is Daprized)
 
 ### Outcome, for the moviecatalog-svc, per team
@@ -58,11 +63,15 @@ description: >
  - Certain files in the repo
    - `.gitignore`, etc.
  - Workflow file in the `.github` directory.
+ - Azure SQL database `bc###-moviecatalog-database`
+   - Connection string made available to the `bc###-moviecatalog-svc` microservice at runtime. (Preferably through Dapr secrets.)
+
+### The pipeline will be responsible for:
  - In the cluster:
     - A node `bc###-moviecatalog-svc`
     - A Dapr sidecar (should be autoinserted because the cluster is Daprized)
- - Azure SQL database `bc###-moviecatalog-database`
-   - Connection string made available to the `bc###-moviecatalog-svc` microservice at runtime. (Preferably through Dapr secrets.)
+    - A node `bc###-moviecatalog-svc-fakeapi` (We probably won't need that, since the movie catalog doesn't have any providers.)
+    - A Dapr sidecar (should be autoinserted because the cluster is Daprized)
 
 ### Outcome, for the booking-svc, per team
 

@@ -101,3 +101,7 @@ Installation instructions for [GitHub CLI](https://github.com/cli/cli):
 
 ### Docker Desktop
 
+ - You'll want to add `C:\src\onbe` as a file sharing resource.
+
+**Settings** > **Resources** > **File Sharing** > **⊕** >> ...
+

@@ -41,20 +41,6 @@ Use this page to track our work on the bootcamp workflow.
       <!-- Current status    --><td>☐ Not started</td>
     </tr>
     <tr>
-      <!-- Step name         --><td>Consumer: Create/update Pacts</td>
-      <!-- When              --><td>PR, main</td>
-      <!-- Bootcamp workflow --><td>Same as real</td>
-      <!-- Notes             --><td>Maybe we'll assume the the attendee generated the Pacts?</code></td>
-      <!-- Current status    --><td>☐ Not started</td>
-    </tr>
-    <tr>
-      <!-- Step name         --><td>Provider: Validate Pacts</td>
-      <!-- When              --><td>PR, main</td>
-      <!-- Bootcamp workflow --><td>Same as real</td>
-      <!-- Notes             --><td></code></td>
-      <!-- Current status    --><td>☐ Not started</td>
-    </tr>
-    <tr>
       <!-- Step name         --><td>Build</td>
       <!-- When              --><td>PR, main</td>
       <!-- Bootcamp workflow --><td>Same as real</td>
@@ -99,6 +85,16 @@ Just do nothing and display a success message.
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <!-- Step name         --><td>Consumer: Create/update Pacts</td>
+      <!-- When              --><td>PR, main</td>
+      <!-- Current status    --><td>☐ Not started</td>
+    </tr>
+    <tr>
+      <!-- Step name         --><td>Provider: Validate Pacts</td>
+      <!-- When              --><td>PR, main</td>
+      <!-- Current status    --><td>☐ Not started</td>
+    </tr>
     <tr>
       <!-- Step name         --><td>Tag</td>
       <!-- When              --><td>main</td>

@@ -99,8 +99,11 @@ Installation instructions for [GitHub CLI](https://github.com/cli/cli):
 
 ### Visual Studio
 
+ - 2019 Community or up
+
 ### Docker Desktop
 
+ - Install [the latest version](https://www.docker.com/products/docker-desktop).
  - You'll want to add `C:\src\onbe` as a file sharing resource.
 
 **Settings** > **Resources** > **File Sharing** > **⊕** >> ...

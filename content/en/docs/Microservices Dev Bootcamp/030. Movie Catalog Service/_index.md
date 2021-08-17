@@ -1,9 +1,9 @@
 ---
 type: docs
-title: "Backend"
-linkTitle: "Backend"
+title: "Movie Catalog Service"
+linkTitle: "Movie Catalog Service"
 weight: 030
 description: >
-  Create the backend microservice.
+  Create the movie catalog microservice.
 ---
 

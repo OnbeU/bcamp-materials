@@ -61,6 +61,14 @@ Private repository: Off
 Push "Push" button
 ~~~
 
+## Lock down main
+
+On the GitHub repository page:
+ - Settings | Branches | Add rule
+ - Branch name pattern: main
+ - Require pull request reviews before merging: true
+ - Include administrators: False
+
 ## Docker setup
 
 ### Create feature branch

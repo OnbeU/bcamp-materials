@@ -1,17 +1,17 @@
 ---
 type: docs
-title: "Movie Catalog Service"
-linkTitle: "Movie Catalog Service"
-weight: 030
+title: "Ordering Service"
+linkTitle: "Ordering Service"
+weight: 040
 description: >
-  Movie Catalog Service.
+  Ordering Service.
 ---
 
 ## Create a new project and solution.
 
 ~~~
 Template: ASP.NET Core Web API
-Project name: Bc###MovieCatalogSvc
+Project name: Bc###OrderingSvc
 Location: c:\src\onbe
 
 Target Framework: .NET 5.0
@@ -25,7 +25,7 @@ Enable OpenAPI support: On
 
  - Remove the project from the solution.
  - Create a `src` directory.
- - Move the project folder `Bc###MovieCatalogSvc` into that directory.
+ - Move the project folder `Bc###OrderingSvc` into that directory.
  - Add the project back into the solution.
 
 ## Create GitHub repo
@@ -53,7 +53,7 @@ Choose "Push to a new remote / GitHub"
 
 ~~~
 Owner: OnbeUStudent
-Repository name: bc###-moviecatalog-svc
+Repository name: bc###-ordering-svc
 Private repository: Off
 Push "Push" button
 ~~~

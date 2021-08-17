@@ -10,6 +10,14 @@ description: >
 Everything that follows are the manual steps that we need to automate.
 ======================================================================
 
+## Lock down main
+
+On the GitHub repository page:
+ - Settings | Branches | Add rule
+ - Branch name pattern: main
+ - Require pull request reviews before merging: true
+ - Include administrators: False
+
 ## Attendee repos, etc. setup
 
 ### Create feature branch
@@ -164,15 +172,3 @@ jobs:
 Commit with comment "Workflow is Onbe-fied.".
 
 Push, create a pull request, complete the pull request and delete the branches.
-
-### TODO
-
-TODO: Add more steps.
-
-Lock down main.
-
- - Settings | Branches | Add rule
- - Branch name pattern: main
- - Require pull request reviews before merging: true
- - Include administrators: False
-

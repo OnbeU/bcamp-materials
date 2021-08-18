@@ -1,9 +1,8 @@
 ---
 type: docs
-title: "(Goal) Angular SPA"
-linkTitle: "(Goal) Angular SPA"
-weight: 011
+title: "Advanced Angular SPA"
+linkTitle: "Advanced Angular SPA"
+weight: 015
 description: >
-  Create the frontend microservice.
+  Some advanced stuff we probably won't get to on day 1.
 ---
-

@@ -2,7 +2,7 @@
 type: docs
 title: "Dynamic content"
 linkTitle: "Dynamic content"
-weight: 30
+weight: 25
 description: >
   Why be static when you can be dynamic?
 ---

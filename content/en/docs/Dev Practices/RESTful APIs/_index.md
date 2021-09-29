@@ -1,10 +1,10 @@
 ---
 type: docs
-title: "RESTful APIs"
-linkTitle: "RESTful APIs"
+title: "External RESTful APIs"
+linkTitle: "External RESTful APIs"
 weight: 4
 description: >
-  daVinci practices around RESTful APIs 
+  Onbe practices around external (customer-facing) RESTful APIs 
 aliases:
   - /link-to/restful-apis
 ---

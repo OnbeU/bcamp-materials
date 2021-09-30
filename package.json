@@ -2,9 +2,8 @@
   "name": "onbe-bootcamp-training-materials",
   "version": "1.0.0",
   "description": "Onbe Bootcamp Training Materials",
-  "main": "index.js",
   "scripts": {
-    "build": "npm install -g postcss-cli && npm run submodule:build && npm run hugo:build",
+    "build": "npm run submodule:build && npm run hugo:build",
     "clean": "npm run hugo:clean",
     "serve": "npm run hugo:serve",
     "submodule:build": "git submodule update --init --recursive --depth 1",
@@ -16,13 +15,13 @@
   "author": "",
   "license": "UNLICENSED",
   "devDependencies": {
-    "autoprefixer": "^10.3.1",
+    "autoprefixer": "^10.3.6",
     "hugo-extended": "^0.86.1",
     "shx": "^0.3.3"
   },
   "dependencies": {
     "bootstrap-sass": "^3.4.1",
-    "postcss": "^8.3.6",
+    "postcss": "^8.3.8",
     "postcss-cli": "^8.3.1"
   }
 }

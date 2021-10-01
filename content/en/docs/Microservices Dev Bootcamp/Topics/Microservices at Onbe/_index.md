@@ -9,5 +9,3 @@ description: >
 
 ![What’s a Microservice?](/images/bootcamp-slides/microservices-bootcamp/Slide43.PNG)
 ![Flavors of Microservices at Onbe](/images/bootcamp-slides/microservices-bootcamp/Slide44.PNG)
-![What’s a Microservice?](/images/bootcamp-slides/microservices-bootcamp/Slide43.PNG)
-![What’s a Microservice?](/images/bootcamp-slides/microservices-bootcamp/Slide43.PNG)

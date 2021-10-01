@@ -9,7 +9,8 @@
 
 ## How to deploy
 
- - Merge the feature branch to main
+ - Create a pull request
+ - Upon merge to main, the site will be deployed
 
 ## How we set up hugo (actually hugo-extended)
 

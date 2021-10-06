@@ -1,0 +1,10 @@
+---
+type: docs
+title: "Cattle not Pets"
+linkTitle: "Cattle not Pets"
+weight: 010
+description: >
+  Cattle not Pets.
+---
+
+![Cattle not Pets](/images/bootcamp-slides/microservices-bootcamp/Slide187.PNG)

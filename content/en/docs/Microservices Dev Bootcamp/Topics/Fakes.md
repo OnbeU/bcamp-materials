@@ -5,7 +5,7 @@ linkTitle: "Fakes"
 weight: 010
 description: >
   Each consumer has fakes for all its provider services.
-  Fakes allow for independent microservices: independent ownership, independent testing, independent deployment.
+  Fakes are an essential part of independent microservices: independent ownership, independent testing, independent deployment.
 ---
 
 ## Watch the recording
@@ -20,6 +20,8 @@ description: >
    2:37:00 Might want to have the fake pass the consumer contract
  - [Day 2](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-16%20Day%202.mp4)
    2:38:00 Why do I need a fake when there's a perfectly good provider in another repo?
+ - [Day 2](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-16%20Day%202.mp4)
+   2:47:50 Fakes are essential to microservice independence
 
 ## Slides
 

@@ -7,5 +7,8 @@ description: >
   What's a microservice and what kinds of microservices do we create?
 ---
 
+![Introduction to Bootcamp](/images/bootcamp-slides/microservices-bootcamp/Slide42.PNG)
+
 ![What’s a Microservice?](/images/bootcamp-slides/microservices-bootcamp/Slide43.PNG)
+
 ![Flavors of Microservices at Onbe](/images/bootcamp-slides/microservices-bootcamp/Slide44.PNG)

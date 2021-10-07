@@ -9,13 +9,14 @@ description: >
 
 ## Watch the recording
 
-We discuss what we're writing in
-[Bootcamp 2021-09-15 Day 2.mp4](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-16%20Day%202.mp4)
-
- - 1:00:07 What We’re Writing / Drive-Ins Inc. Exemplar
- - 1:59:00 Don't use HTTPS for Visual Studio projects
- - 2:11:20 Use Kestrel to run the fakes
- - 2:17:00 Fake users in bootcamp projects
+ - [Day 2](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-16%20Day%202.mp4)
+   1:00:07 What We’re Writing / Drive-Ins Inc. Exemplar
+ - [Day 2](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-16%20Day%202.mp4)
+   1:59:00 Don't use HTTPS for Visual Studio projects
+ - [Day 2](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-16%20Day%202.mp4)
+   2:11:20 Use Kestrel to run the fakes
+ - [Day 2](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-16%20Day%202.mp4)
+   2:17:00 Fake users in bootcamp projects
 
 ## Slides
 ![What We’re Writing](/images/bootcamp-slides/microservices-bootcamp/Slide17.PNG)

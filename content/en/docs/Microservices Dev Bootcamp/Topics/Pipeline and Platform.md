@@ -8,20 +8,28 @@ description: >
 ---
 ## Watch the recording
 
-We discuss the Onbe pipeline and platform in
-[Bootcamp 2021-09-15 Day 1.mp4](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-15%20Day%201.mp4)
-
- - 1:40:30 The Steps to Production
- - 1:41:10 Microservices Are Independent
- - 1:42:00 Independent Deployment Requires Gates
- - 1:42:10 Gate Before Pull Request
- - 1:42:30 Every Pull Request is a Stage Site
- - 1:43:15 Gates Before main
- - 1:45:01 Gates Before Deployment
- - 1:45:45 Is That All? / The Onbe Pipeline is Behind The Scenes / Cattle, Not Pets
- - 1:51:28 What About Those Other Environments?
- - 1:52:13 Pipeline for a Microservice / Continuous Deployment / No Place to Test a Monolith
- - 1:53:08 Where does the Testing Happen? / Shift-Left Testing & Shift-Right Testing / A Microservice’s Testing Responsibilities
+ - [Day 1](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-15%20Day%201.mp4)
+   1:40:30 The Steps to Production
+ - [Day 1](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-15%20Day%201.mp4)
+   1:41:10 Microservices Are Independent
+ - [Day 1](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-15%20Day%201.mp4)
+   1:42:00 Independent Deployment Requires Gates
+ - [Day 1](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-15%20Day%201.mp4)
+   1:42:10 Gate Before Pull Request
+ - [Day 1](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-15%20Day%201.mp4)
+   1:42:30 Every Pull Request is a Stage Site
+ - [Day 1](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-15%20Day%201.mp4)
+   1:43:15 Gates Before main
+ - [Day 1](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-15%20Day%201.mp4)
+   1:45:01 Gates Before Deployment
+ - [Day 1](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-15%20Day%201.mp4)
+   1:45:45 Is That All? / The Onbe Pipeline is Behind The Scenes / Cattle, Not Pets
+ - [Day 1](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-15%20Day%201.mp4)
+   1:51:28 What About Those Other Environments?
+ - [Day 1](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-15%20Day%201.mp4)
+   1:52:13 Pipeline for a Microservice / Continuous Deployment / No Place to Test a Monolith
+ - [Day 1](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-15%20Day%201.mp4)
+   1:53:08 Where does the Testing Happen? / Shift-Left Testing & Shift-Right Testing / A Microservice’s Testing Responsibilities
 
 ## Slides
 ![The Steps to Production](/images/bootcamp-slides/microservices-bootcamp/Slide49.PNG)

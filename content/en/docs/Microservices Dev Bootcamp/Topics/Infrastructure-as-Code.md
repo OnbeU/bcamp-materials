@@ -4,9 +4,15 @@ title: "Infrastructure-as-Code"
 linkTitle: "Infrastructure-as-Code"
 weight: 010
 description: >
-  Infrastructure-as-Code.
+  Knowing that your infrastructure is in place before you deploy.
 ---
 
+## Watch the recording
+
+- [Day 2](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-16%20Day%202.mp4)
+  3:31:40 Infrastructure-as-Code
+
+## Slides
 ![Infrastructure-as-Code](/images/bootcamp-slides/microservices-bootcamp/Slide82.PNG)
 
 ![Infrastructure-as-Code](/images/bootcamp-slides/microservices-bootcamp/Slide83.PNG)

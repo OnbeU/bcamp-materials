@@ -9,13 +9,14 @@ description: >
 
 ## Watch the recording
 
-We discuss the Onbe pipeline and platform in
-[Bootcamp 2021-09-15 Day 2.mp4](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-16%20Day%202.mp4)
-
- - 07:20 What is Jamstack?
- - 07:56 Jamstack is a website architecture / The JAM in Jamstack stands for…
- - 08:48 Jamstack vs On-The-Server: Simpler / Faster / More Secure / Supports Mobile
- - 11:37 Jamstack at the daVinci Hackathon 2020-PI3
+ - [Day 2](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-16%20Day%202.mp4)
+   07:20 What is Jamstack?
+ - [Day 2](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-16%20Day%202.mp4)
+   07:56 Jamstack is a website architecture / The JAM in Jamstack stands for…
+ - [Day 2](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-16%20Day%202.mp4)
+   08:48 Jamstack vs On-The-Server: Simpler / Faster / More Secure / Supports Mobile
+ - [Day 2](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-16%20Day%202.mp4)
+   11:37 Jamstack at the daVinci Hackathon 2020-PI3
 
 ## Slides
 ![What is Jamstack?](/images/bootcamp-slides/microservices-bootcamp/Slide144.PNG)

@@ -22,6 +22,8 @@ description: >
    2:38:00 Why do I need a fake when there's a perfectly good provider in another repo?
  - [Day 2](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-16%20Day%202.mp4)
    2:47:50 Fakes are essential to microservice independence
+ - [Day 3](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-17%20Day%203.mp4)
+   40:45 More about how each consumer has one fake for each provider
 
 ## Slides
 

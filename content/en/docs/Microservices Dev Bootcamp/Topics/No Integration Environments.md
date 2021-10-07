@@ -4,7 +4,7 @@ title: "No Integration Environments"
 linkTitle: "No Integration Environments"
 weight: 010
 description: >
-  No Integration Environments.
+  How we're not going to use integration environments (like staging) in the future and why we consider these environments to be an invasive species.
 ---
 
 ## Watch the recording

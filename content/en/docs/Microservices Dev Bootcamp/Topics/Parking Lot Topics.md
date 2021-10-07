@@ -29,6 +29,9 @@ Needs more discussion and planning. Maybe we should just revisit this after we g
 
 Needs more discussion and planning.
 
+ - [Day 2](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-16%20Day%202.mp4)
+   3:51:20 Documentation in a developer-focused way
+
 ## Prod Release process
 
 ## What about giving clients keys to a non-production version of our APIs and such?
@@ -37,7 +40,15 @@ Can be solved with synthetic users.
 
 ## Will we standardize response objects, paths and such for APIs?
 
+Two ways to answer that: Yes, because it's a good thing to be consistent. Second, we don't really care,
+since we're doing consumer contracts and not provider contracts and as long as it works.
+
+ - [Day 2](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-16%20Day%202.mp4)
+   3:47:42 Whether/how to standardize API calls
+
 ## Will we transfer the bootcamp materials into Confluence or something like that?
+
+Yes. (It's on the site where you're reading these words.)
 
 ## Should a Pact verification failure prevent the PR from being created?
 

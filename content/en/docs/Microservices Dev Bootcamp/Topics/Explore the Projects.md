@@ -16,7 +16,6 @@ description: >
    2:41:50 Exploring the projects, after Pact discussion
  - [Day 3](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-17%20Day%203.mp4)
    3:04:50 Exploring the projects, after break
- - [Day 3](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-17%20Day%203.mp4)
 
 ## Slides
 ![Explore the Projects](/images/bootcamp-slides/microservices-bootcamp/Slide70.PNG)

@@ -1,6 +1,6 @@
 ---
 type: docs
-title: ""We Don't Know...Yet
+title: "We Don't Know...Yet"
 linkTitle: "We Don't Know...Yet"
 weight: 010
 description: >

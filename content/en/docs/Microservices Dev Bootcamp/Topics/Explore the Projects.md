@@ -16,6 +16,10 @@ description: >
    2:41:50 Exploring the projects, after Pact discussion
  - [Day 3](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-17%20Day%203.mp4)
    3:04:50 Exploring the projects, after break
+ - [Day 4](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-20%20Day%204.mp4)
+  2:20:30 SPA
+ - [Day 4](https://onbeco.sharepoint.com/sites/Technology/Shared%20Documents/General/Architecture/Presentations/Onbe%20Microservices%20Bootcamp/Recorded%20Sessions/Bootcamp%202021-09-20%20Day%204.mp4)
+  2:29:00-2:36:20 Making frontend features available to synthetic users only
 
 ## Slides
 ![Explore the Projects](/images/bootcamp-slides/microservices-bootcamp/Slide70.PNG)

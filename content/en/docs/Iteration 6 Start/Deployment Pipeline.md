@@ -15,46 +15,12 @@ At Onbe we will be using a common way to deploy application code. We have built 
 ### Service (C#) Application
 ---
 This pipeline will be used by all the BFFs and Services that were created following the *CSharp Microservice Project structure and naming guidelines*. 
-- Before consuming the pipeline you need to make sure your application is docker enabled. If you application is not docker enabled, right click your application in visual studio and click **Add Container Orchestrator Support** you need to choose orchestrator type Docker Compose and Target OS as Linux.
-This will add a docker compose project as well as a docker file to application and fakes.  
-{{% pageinfo color="warning" %}}
-Note: You need to add Container Orchestrator support for main application as well for all the fakes in your solution.
-In future if you add more fakes remember to add container orchestrator support.
-{{% /pageinfo %}}
-_More information on  [Docker and Docker Compose](https://docs.docker.com/compose/)_
-
-  ![Visual Studio Add Container Orchestrator Support](/images/ContinuousDeployment/AddContainerOrchestratorSupport.jpg)
-
-- You also need to add health check to your application. The health check needs to be configured for <font color="red">**```/hc```**</font> route. If health check route /hc is not present then pipeline will not be able to deploy your application. The pipeline is configured to deploy application in Azure Kubernetes cluster with K8s Liveness and Readiness probe pointing to /hc route.
-
-_More information on [Health checks in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-5.0)_
+- **Prerequisites** before consuming the pipeline into your application. 
+  - Application needs to be docker enabled. See [Add Container Orchestration Support](/docs/iteration-6-start/create-a-new-service/#csharp-add-container-orchestrator)
+  - Application must contain health check route ```/hc```. If /hc is not present then pipeline will not be able to deploy your application. The pipeline is configured to deploy application in Azure Kubernetes cluster with K8s Liveness and Readiness probe pointing to /hc route. See [Add Health Check and Health Check Route](/docs/iteration-6-start/create-a-new-service/#csharp-add-healthcheck)
 
 _More information on [Kubernetes Container probes](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#container-probes)_
 
-```
- public class Startup
-{
-    public Startup(IConfiguration configuration)
-    {
-            Configuration = configuration;
-    }
-    public void ConfigureServices(IServiceCollection services)
-    {
-        services.AddHealthChecks();   <-------------
-    }
-
-    public void Configure(IApplicationBuilder app)
-    {
-        app.UseRouting();
-
-        app.UseEndpoints(endpoints =>
-        {
-            endpoints.MapControllers();
-            endpoints.MapHealthChecks("/hc");  <------------
-        });
-    }
-}
-```
 
 - Add Github deployment pipeline
     1. Create a ```.github/workflows``` directory in your repository on GitHub if this directory does not already exist.

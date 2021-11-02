@@ -126,9 +126,9 @@ _More information on [Health checks in ASP.NET Core](https://docs.microsoft.com/
     }
 }
 ``` 
-- Pact Provider Test project changes.<a name="csharp-pactprovidertestchanges"></a>
+- Pact Test project changes.<a name="csharp-pacttestprojectchanges"></a>
 
-  We are using PACTNET library for our Pact contract testing. Pactnet library needs different packages based on your operating system. We need to update our pact provider test project to add conditional packages. Add/Update the pact provider test csproj file with the following content.
+  We are using PACTNET library for our Pact contract testing. Pactnet library needs different packages based on your operating system. We need to update pact provider and consumer test projects to add conditional packages. Add/Update the pact test csproj files with the following content.
 
 ```
  <PackageReference Include="PactNet.Linux.x64" Version="3.0.0" Condition="$([MSBuild]::IsOsPlatform('Linux'))" />

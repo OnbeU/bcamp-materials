@@ -54,12 +54,12 @@ This document describes the rule and recommendations for placing different c# pr
       |-- Program.cs
       |-- MTs**APPNAME**.cs                   // This class will have all the app specific logging message Templates.
 |- fakes/                                     // directory to store all fake services
-  |- **FAKE1-APPNAME**/.Fake                      // Fake Service 1
+  |- **FAKE1-APPNAME**.Fake/                      // Fake Service 1
       |-- **FAKE1-APPNAME**.Fake.csproj            // csharp MVC project files.
       |-- appsettings.json
       |-- Dockerfile
       |-- other c# project files
-  |- **FAKE2-APPNAME**/.Fake                      // Fake Service 2
+  |- **FAKE2-APPNAME**.Fake/                      // Fake Service 2
       |-- **FAKE2-APPNAME**.Fake.csproj            // csharp MVC project files.
       |-- appsettings.json
       |-- Dockerfile

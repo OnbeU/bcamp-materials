@@ -26,6 +26,8 @@ This document describes the rule and recommendations for placing different c# pr
       |-- Services                            // Services that holds business logic
           |-- IHomeService.cs
           |-- HomeService.cs
+      |-- Models                              // classes for non-data related models
+          |-- ActionRequest.cs (Example)
       |-- Messages                            // Model classes to send and receive the Messages for commands and events
           |-- Commands
               |-- **Domain**

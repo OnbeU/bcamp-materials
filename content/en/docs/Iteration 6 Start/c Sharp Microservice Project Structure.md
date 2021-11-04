@@ -34,7 +34,7 @@ This document describes the rule and recommendations for placing different c# pr
               |-- Funds(Example)
                   |-- ValidateFundCommand.cs
                   |-- ValidateFundResponse.cs
-              |-- IntegrationEvents
+          |-- IntegrationEvents
                   |-- ** Domain **
       |-- Features                          // Any helper functions, utilities other 3rd party libraries code 
           |-- ExtensionMethods (Example)

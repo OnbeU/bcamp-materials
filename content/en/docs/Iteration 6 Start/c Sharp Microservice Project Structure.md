@@ -20,7 +20,7 @@ This document describes the rule and recommendations for placing different c# pr
 |-- README.md                                 // project-level README
 |-- src/                                      // Source code of your service
   |-- **APPNAME**/                            // App-Name directory
-      |-- **APPNAME**.csproj                  
+      |-- **APPNAME**.csproj (Example: OmOrderManagementSvc.csproj)                 
       |-- Controllers                                               
           |-- HomeController.cs
       |-- Services                            // Services that holds business logic
@@ -30,10 +30,10 @@ This document describes the rule and recommendations for placing different c# pr
           |-- Commands
               |-- **Domain**
                   |-- **MessageCommand**.cs
-                      |-- **MessageResponse**.cs
-                  |-- Funds(Example)
-                      |-- ValidateFundCommand.cs
-                      |-- ValidateFundResponse.cs
+                  |-- **MessageResponse**.cs
+              |-- Funds(Example)
+                  |-- ValidateFundCommand.cs
+                  |-- ValidateFundResponse.cs
               |-- IntegrationEvents
                   |-- ** Domain **
       |-- Features                          // Any helper functions, utilities other 3rd party libraries code 
@@ -54,26 +54,27 @@ This document describes the rule and recommendations for placing different c# pr
       |-- Program.cs
       |-- MTs**APPNAME**.cs                   // This class will have all the app specific logging message Templates.
 |- fakes/                                     // directory to store all fake services
-  |- **FAKE1-APPNAME**.Fake/                      // Fake Service 1
-      |-- **FAKE1-APPNAME**.Fake.csproj            // csharp MVC project files.
+  |- **APPNAMEofFake1*.Fake/                  // (Example : OmPurseManagementSvc.Fake/ )App Name of the Service that this app is making external calls to
+      |-- **APPNAMEofFake1*.Fake.csproj           
       |-- appsettings.json
       |-- Dockerfile
       |-- other c# project files
-  |- **FAKE2-APPNAME**.Fake/                      // Fake Service 2
-      |-- **FAKE2-APPNAME**.Fake.csproj            // csharp MVC project files.
+  |- **APPNAMEofFake2*.Fake/                  // (Example : OmFeeManagementSvc.Fake/ )App Name of the Service that this app is making external calls to
+      |-- **APPNAMEofFake2*.Fake.csproj        
       |-- appsettings.json
       |-- Dockerfile
       |-- other c# project files
 |- tests/                                     // folder for test projects (Create Directory for each test type even if there is no Test)
-  |- **APPNAME**.Acceptance.Tests/           // Acceptance Test directory
+  |- Acceptance.Tests/           // Acceptance Test directory
      |-- **APPNAME**.Acceptance.Tests.csproj
-  |- **APPNAME**.PactConsumer.Tests/         // Pact Consumer Test directory
+  |- PactConsumer.Tests/         // Pact Consumer Test directory
      |-- **APPNAME**.PactConsumer.Tests.csproj 
-  |- **APPNAME**.PactProvider.Tests/         // Pact Provider Test directory
+  |- PactProvider.Tests/         // Pact Provider Test directory
      |-- **APPNAME**.PactProvider.Tests.csproj 
-  |- **APPNAME**.Unit.Tests/                 // App-Name directory
+  |- Unit.Tests/                 // App-Name directory
      |-- **APPNAME**.Unit.Tests.csproj 
   |- **OtherLibrary**.Unit.Tests/            // App-Name directory
+     |-- **OtherLibrary**.Unit.Tests.csproj   
 |- pacts
   |- contracts                               // This stores the generated contract json files
   |- logs
